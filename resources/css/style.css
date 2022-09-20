@@ -1,0 +1,9 @@
+.header {
+    width: 25%;
+    background-color: red;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
