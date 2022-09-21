@@ -9,10 +9,9 @@
     <title>Portfolio-website</title>
 </head>
 <body>
-    <div class="center">
-        <div class="header">
-            <p>Dit is de header</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="header">
+        <div class="center-block">
+            <h2>Portfolio Joey Huijben</h2>
         </div>
     </div>
 
@@ -26,6 +25,10 @@
         <p>Hier komt de projectnaam</p>
         <p>Hier komt een afbeelding</p>
         <p>Hier komt de beschrijving van het project</p>
+    </div>
+
+    <div class="links">
+        <p>Hier komen de links naar social media</p>
     </div>
 </body>
 </html>
