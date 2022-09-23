@@ -1,21 +1,63 @@
-.header {
-    height: 70px;
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
+body {
+    width: 100%;
+    margin: 0;
 }
 
-.center-block {
-    display: block;
-    text-align: center;
+header {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: gray;
+    color: white;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
 }
 
 .textAboutMe {
+    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 50px;
 }
 
+.imageOfMe img {
+    margin-top: 5px;
+    width: 50%;
+}
+
+.separator {
+    border: 3px solid red;
+    background-color: red;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    background-color: aqua;
+}
+
+.projects {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
 .links {
-    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+footer {
+    left: 0;
     bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
 }
