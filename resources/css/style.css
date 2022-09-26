@@ -15,12 +15,23 @@ h2 {
     margin-left: 15px;
 }
 
-.container {
+.introductionContainer {
     background-color: aqua;
     display: flex;
 }
 
-.textAboutMe {
+.introduction {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.aboutMeContainer {
+    background-color: aqua;
+    display: flex;
+}
+
+.aboutMe {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
@@ -37,7 +48,7 @@ h2 {
     color: white;
 }
 
-.container2 {
+.projectsContainer {
     display: flex;
     background-color: aqua;
 }

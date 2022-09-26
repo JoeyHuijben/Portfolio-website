@@ -17,8 +17,21 @@
         <h2>Introductie</h2>
     </div>
 
-    <div class="container">
-        <div class="textAboutMe">
+    <div class="introductionContainer">
+        <div class="introduction">
+            <h4>Hier komt tekst over de website</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Accusantium aliquid aperiam aspernatur eius exercitationem harum minus molestiae nulla temporibus totam!</p>
+            <p>Amet commodi hic officia quisquam! Eum officia quo reprehenderit voluptatem.</p>
+        </div>
+    </div>
+
+    <div class="separator">
+        <h2>About me</h2>
+    </div>
+
+    <div class="aboutMeContainer">
+        <div class="aboutMe">
             <h4>Hier komt tekst over mezelf</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p>Accusantium aliquid aperiam aspernatur eius exercitationem harum minus molestiae nulla temporibus totam!</p>
@@ -33,13 +46,21 @@
         <h2>Projecten</h2>
     </div>
 
-    <div class="container2">
+    <div class="projectsContainer">
         <div class="projects">
-            <button>Filterknop</button>
+            <label>Filter</label>
+            <select>
+                <option value="Web">
+                    Web
+                </option>
+                <option value="C#">
+                    C#
+                </option>
+            </select>
             <h4>Hier komt de projectnaam</h4>
             <p>Lorem ipsum dolor sit amet</p>
-            <h4>Hier komt een afbeelding</h4>
-            <img src="{{ asset('assets/Mario.jpg') }}" alt="test">
+            <h4>Hier komt een afbeelding van het project</h4>
+            <img src="{{ asset('assets/Mario.jpg') }}" alt="foto van project">
             <h4>Hier komt de beschrijving van het project</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut commodi cumque dignissimos, dolore laudantium maiores nihil, non obcaecati quo repudiandae velit, veniam voluptates voluptatibus. Aliquid necessitatibus provident quae sunt tenetur?</p>
         </div>
