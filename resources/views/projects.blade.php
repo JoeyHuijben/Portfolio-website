@@ -16,25 +16,17 @@
         <h2>Projecten</h2>
     </div>
 
-{{--    <div class="flex-auto text-right mt-2">--}}
-{{--        <a href="/project" >Add new Project</a>--}}
-{{--    </div>--}}
-
-{{--    @foreach(projects as $project)--}}
-{{--        <tr class="border-b hover:bg-orange-100">--}}
-{{--            <td class="p-3 px-5">--}}
-{{--                {{$project->project_name}}--}}
-{{--                {{$project->project_description}}--}}
-{{--            </td>--}}
-{{--            <td class="p-3 px-5">--}}
-
-{{--                <a href="/task/{{$project->id}}" name="edit" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Edit</a>--}}
-{{--                <form action="/task/{{$project->id}}" class="inline-block">--}}
-{{--                    <button type="submit" name="delete" formmethod="POST" class="text-sm bg-red-500 hover:bg-red-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Delete</button>--}}
-{{--                </form>--}}
-{{--            </td>--}}
-{{--        </tr>--}}
-{{--    @endforeach--}}
+    @foreach($projects as $project)
+        <div class="projectsList">
+            <a href="/project" >Add new Project</a>
+            {{$project->project_name}}
+            {{$project->project_description}}
+            <a href="/project/{{$project->id}}" name="edit" class="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Edit</a>
+            <form action="/project/{{$project->id}}" class="inline-block">
+                <button type="submit" name="delete" formmethod="POST" class="text-sm bg-red-500 hover:bg-red-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline">Delete</button>
+            </form>
+        </div>
+    @endforeach
 
     <div class="projectsContainer">
         <div class="projects">

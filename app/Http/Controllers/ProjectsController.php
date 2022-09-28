@@ -9,8 +9,8 @@ class ProjectsController extends Controller
 {
     public function index()
     {
-        $projects = projects;
-        return view('projects', compact('projects'));
+        $projects = Project::all();
+        return view('projects')->with(compact('projects'));
     }
 
     public function add()
