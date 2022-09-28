@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    margin: 0;
+    margin: auto;
 }
 
 header {
@@ -13,6 +13,10 @@ header {
 
 h2 {
     margin-left: 15px;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 .introductionContainer {
@@ -58,18 +62,36 @@ h2 {
     margin-top: 15px;
 }
 
+.navigators {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.navigators svg {
+    color: green;
+    margin-left: 10px;
+}
+
 .links {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
 }
 
+.links svg {
+    margin-left: 15px;
+}
+
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 45px;
     background-color: gray;
     color: white;
-    text-align: center;
 }
 
