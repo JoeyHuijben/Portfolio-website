@@ -47,9 +47,9 @@ h4 {
 }
 
 .separator {
-    border: 3px solid gray;
-    background-color: gray;
-    color: white;
+    border: 3px solid lightgrey;
+    background-color: lightgrey;
+    color: blue;
 }
 
 .projectsContainer {
