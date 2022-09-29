@@ -12,10 +12,6 @@
     <h1>Portfolio Joey Huijben</h1>
 </header>
 <body>
-    <div class="separator">
-        <h2>Introductie</h2>
-    </div>
-
     <div class="introductionContainer">
         <div class="introduction">
             <h4>Informatie over deze website</h4>

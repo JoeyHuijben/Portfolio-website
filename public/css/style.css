@@ -47,8 +47,8 @@ h4 {
 }
 
 .separator {
-    border: 3px solid red;
-    background-color: red;
+    border: 3px solid gray;
+    background-color: gray;
     color: white;
 }
 
